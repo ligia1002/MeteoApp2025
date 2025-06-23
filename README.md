@@ -22,7 +22,7 @@ MeteoApp funcționează cu un dispozitiv fizic bazat pe **ESP32 Nano**, echipat 
 
 ### 🔄 Funcționare
 
-1. ESP-ul colectează date de la senzori la la fiecare 60 secunde
+1. ESP-ul colectează date de la senzori la fiecare 60 secunde
 2. Formatează datele într-un JSON:
    ```json
    {
