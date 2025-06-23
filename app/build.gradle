@@ -1,0 +1,70 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.example.meteoapp'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.meteoapp"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-auth:22.3.0'
+    implementation 'com.google.android.material:material:1.11.0'
+    //Lottie pentru animatii
+    implementation 'com.airbnb.android:lottie:6.4.0'
+    implementation 'com.google.firebase:firebase-storage:20.0.0'
+    implementation 'com.google.firebase:firebase-firestore:24.7.0'
+    implementation 'com.google.firebase:firebase-firestore:24.4.4'
+    implementation platform('com.google.firebase:firebase-bom:32.7.0')
+    implementation 'com.google.firebase:firebase-messaging:23.4.1'
+
+    // Firebase
+    implementation platform('com.google.firebase:firebase-bom:32.7.0')
+    implementation 'com.google.firebase:firebase-database'
+
+    // Lifecycle components
+    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.6.2'
+    implementation 'androidx.lifecycle:lifecycle-livedata:2.6.2'
+
+    // Lottie for animated sun
+    implementation 'com.airbnb.android:lottie:6.4.0'
+
+    // Retrofit pentru HTTP requests
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+
+    // GSON converter (pentru parsarea JSON în obiecte Java)
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+}
+apply plugin: 'com.google.gms.google-services'

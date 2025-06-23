@@ -1,0 +1,4 @@
+com.example.meteoapp.test.app-androidTest-0 C:\Users\andre\Desktop\MeteoAppModern\app\build\generated\res\resValues\androidTest\debug
+com.example.meteoapp.test.app-mergeDebugAndroidTestResources-1 C:\Users\andre\Desktop\MeteoAppModern\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.meteoapp.test.app-mergeDebugAndroidTestResources-2 C:\Users\andre\Desktop\MeteoAppModern\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.meteoapp.test.app-debugAndroidTest-3 C:\Users\andre\Desktop\MeteoAppModern\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

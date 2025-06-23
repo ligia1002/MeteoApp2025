@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_bg_logout_selector.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/bg_logout_selector.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_thermometer.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/thermometer.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_uv_gradient.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/uv_gradient.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_bg_rain.jpg.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/bg_rain.jpg"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_sky_wall.jpg.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/sky_wall.jpg"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_crema_uv.png.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/crema_uv.png"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_presiune.png.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/presiune.png"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_ic_pollution_wide_horn.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/ic_pollution_wide_horn.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/layout_activity_login.xml.flat",
+        "source": "com.example.meteoapp-main-43:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_ic_settings.png.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/ic_settings.png"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/menu_drawer_menu.xml.flat",
+        "source": "com.example.meteoapp-main-43:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_rounded_button.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/rounded_button.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_ic_logout.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_ic_notification.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/layout_custom_drawer_layout.xml.flat",
+        "source": "com.example.meteoapp-main-43:/layout/custom_drawer_layout.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/layout_activity_main.xml.flat",
+        "source": "com.example.meteoapp-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_circle_background.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/circle_background.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/layout_activity_settings.xml.flat",
+        "source": "com.example.meteoapp-main-43:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_bg_gradient.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/bg_gradient.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/layout_logout_footer.xml.flat",
+        "source": "com.example.meteoapp-main-43:/layout/logout_footer.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_ic_lightbulb.png.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/ic_lightbulb.png"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_bg_sky.jpg.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/bg_sky.jpg"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_info_card_night.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/info_card_night.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_profile_circle.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/profile_circle.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/layout_activity_thresholds.xml.flat",
+        "source": "com.example.meteoapp-main-43:/layout/activity_thresholds.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/layout_activity_register.xml.flat",
+        "source": "com.example.meteoapp-main-43:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_pollution.png.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/pollution.png"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/layout_activity_alarms.xml.flat",
+        "source": "com.example.meteoapp-main-43:/layout/activity_alarms.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_bg_rain_night.jpg.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/bg_rain_night.jpg"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_ic_profile_placeholder.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/ic_profile_placeholder.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/layout_activity_facts.xml.flat",
+        "source": "com.example.meteoapp-main-43:/layout/activity_facts.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_ic_temp.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/ic_temp.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_bg_clear_night.jpg.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/bg_clear_night.jpg"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_info_card_sunny.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/info_card_sunny.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_profile_glow.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/profile_glow.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_info_card_rain.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/info_card_rain.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_ic_humidity.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/ic_humidity.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_ic_pressure.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/ic_pressure.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_info_card_bg.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/info_card_bg.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_settings_icon.png.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/settings_icon.png"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.meteoapp-main-43:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-debug-41:/drawable_ic_rain_material_blue.xml.flat",
+        "source": "com.example.meteoapp-main-43:/drawable/ic_rain_material_blue.xml"
+    }
+]

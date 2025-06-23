@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MeteoApp</string>
+
+    <!-- Praguri -->
+    <string name="label_temperature">Temperatură (&gt; °C)</string>
+    <string name="desc_temp_slider">Slider pentru temperatura</string>
+
+    <string name="label_humidity">Umiditate (&lt; %)</string>
+    <string name="humidity_label">Umiditate (&lt; %)</string>
+    <string name="desc_humidity_slider">Slider pentru umiditate</string>
+    <string name="nickname_placeholder">Nickname</string>
+
+    <string name="btn_save_changes">Salvează modificările</string>
+</resources>

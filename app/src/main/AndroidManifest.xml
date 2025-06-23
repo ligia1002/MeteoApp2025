@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.meteoapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <application
+        android:name=".MeteoApp"
+        android:allowBackup="true"
+        android:label="MeteoApp"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/Theme.MeteoApp">
+
+        <activity android:name=".ui.alarms.AlarmsActivity" />
+        <activity android:name=".ui.settings.SettingsActivity" />
+
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action   android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.auth.LoginActivity" />
+        <activity android:name=".ui.auth.RegisterActivity" />
+        <activity android:name=".ui.settings.ThresholdsActivity" />
+        <activity android:name=".ui.main.FactsActivity" />
+
+        <service
+            android:name=".service.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+</manifest>

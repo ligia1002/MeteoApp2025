@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.meteoapp-mergeDebugResources-40:/layout/activity_alarms.xml",
+        "source": "com.example.meteoapp-main-43:/layout/activity_alarms.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-mergeDebugResources-40:/layout/activity_settings.xml",
+        "source": "com.example.meteoapp-main-43:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-mergeDebugResources-40:/layout/logout_footer.xml",
+        "source": "com.example.meteoapp-main-43:/layout/logout_footer.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.example.meteoapp-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-mergeDebugResources-40:/layout/activity_facts.xml",
+        "source": "com.example.meteoapp-main-43:/layout/activity_facts.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-mergeDebugResources-40:/layout/custom_drawer_layout.xml",
+        "source": "com.example.meteoapp-main-43:/layout/custom_drawer_layout.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-mergeDebugResources-40:/layout/activity_thresholds.xml",
+        "source": "com.example.meteoapp-main-43:/layout/activity_thresholds.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-mergeDebugResources-40:/layout/activity_register.xml",
+        "source": "com.example.meteoapp-main-43:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.meteoapp-mergeDebugResources-40:/layout/activity_login.xml",
+        "source": "com.example.meteoapp-main-43:/layout/activity_login.xml"
+    }
+]
