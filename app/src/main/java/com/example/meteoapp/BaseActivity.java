@@ -4,7 +4,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
-import android.view.View; // ✅ Importă View
+import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.graphics.Color; // Pentru Color.TRANSPARENT
 import com.example.meteoapp.R;
