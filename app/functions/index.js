@@ -13,8 +13,6 @@ admin.initializeApp({
 const rtdb      = admin.database();
 const firestore = admin.firestore();
 
-// ─────────────────────────────────────────────────────────────────────────
-// Trimite notificare
 function sendNotification(token, title, body, tag) {
   return admin.messaging().send({
     token,
@@ -30,7 +28,6 @@ function sendNotification(token, title, body, tag) {
 }
 
 
-//Ultimele două înregistrări
 async function getLastTwoSensorReadings() {
   const snap = await rtdb
     .ref("/SensorData")
@@ -43,7 +40,6 @@ async function getLastTwoSensorReadings() {
   return { prev: vals[0], curr: vals[1] };       // sortate vechi → nou
 }
 
-// Funcție generală de evaluare condiție
 function checkCondition(value, threshold, operator) {
   switch (operator) {
     case "<": return value < threshold;
@@ -56,7 +52,6 @@ function checkCondition(value, threshold, operator) {
   }
 }
 
-// Obține prag pentru senzor (per user)
 async function getThreshold(userId, sensorType) {
   const docRef = firestore
     .collection("users")
@@ -67,7 +62,6 @@ async function getThreshold(userId, sensorType) {
   return snap.exists ? snap.data() : null;
 }
 
-// Citește ultimul pachet de date
 async function getLatestSensorData() {
   const snap = await rtdb
     .ref("/SensorData")
@@ -79,7 +73,6 @@ async function getLatestSensorData() {
   return raw ? Object.values(raw)[0] : null;
 }
 
-// Funcția principala
 async function checkRealtimeDataAndNotify() {
   try {
     // 1. date meteo
@@ -117,7 +110,6 @@ async function checkRealtimeDataAndNotify() {
         }
 
         const tasks = [];
-//  DETECȚIE TRANZIȚII
 
 
 if (isStale === true && prefs.notifyTemperature) {
@@ -175,7 +167,6 @@ if (isStale === true && prefs.notifyPollution) {
                   , "uv-alert").catch(e => console.error("Eroare notificare 4:", e)));
                 }
               }
-
                       if (
                         isStale === true && prefs.notifyRain &&
                         prev.rainDetected === false &&
@@ -203,10 +194,7 @@ if (isStale === true && prefs.notifyPollution) {
 // ruleaza o data
 checkRealtimeDataAndNotify();
 
-
-
 loop();
-
 
 async function loop() {
   try {
