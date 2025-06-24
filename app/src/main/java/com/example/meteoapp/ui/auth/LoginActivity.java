@@ -1,6 +1,5 @@
 package com.example.meteoapp.ui.auth;
 
-// importuri necesare
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.EditText;
@@ -50,7 +49,6 @@ public class LoginActivity extends AppCompatActivity {
                             String uid3 = FirebaseAuth.getInstance().getCurrentUser().getUid();
                             FirebaseFirestore db3 = FirebaseFirestore.getInstance();
 
-                            // ---------- DevicePreferences ----------
                             DevicePreferences prefs = new DevicePreferences();
                             prefs.setNotifyTemperature(true);
                             prefs.setNotifyRain(true);
