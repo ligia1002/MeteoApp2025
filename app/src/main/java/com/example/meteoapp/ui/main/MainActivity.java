@@ -277,7 +277,6 @@ public class MainActivity extends BaseActivity {
             String uid2 = FirebaseAuth.getInstance().getCurrentUser().getUid();
             FirebaseFirestore db2 = FirebaseFirestore.getInstance();
 
-            // Dezactivează notificările
             Map<String, Object> updates = new HashMap<>();
             updates.put("notifyRain", false);
             updates.put("notifyTemperature", false);
@@ -317,11 +316,9 @@ public class MainActivity extends BaseActivity {
         if (requestCode == PICK_IMAGE_REQUEST && resultCode == RESULT_OK && data != null && data.getData() != null) {
             imageUri = data.getData();
 
-            // Afișează în UI
             ImageView profileImage = binding.navigationView.getHeaderView(0).findViewById(R.id.profileImage);
             profileImage.setImageURI(imageUri);
 
-            // Încarcă în Firebase
             uploadProfileImage(imageUri);
         }
     }
