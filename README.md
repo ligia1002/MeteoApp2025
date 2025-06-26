@@ -58,14 +58,14 @@ MeteoApp funcționează cu un dispozitiv fizic bazat pe **ESP32 Nano**, echipat 
 ## 👨‍💻 COMPONENTA SOFTWARE
 ### 🔧 Funcționalități
 
-- ✅ Autentificare cu email și parolă (Firebase Auth)
-- ✅ Praguri personalizate pentru senzori: temperatură, umiditate, ploaie, UV, poluare
-- ✅ Preferințe individuale de notificare
-- ✅ Stocare în Firebase Firestore
-- ✅ Notificări push automate (Firebase Cloud Messaging)
-- ✅ Backend Node.js care monitorizează senzorii și trimite alerte în timp real
+- Autentificare cu email și parolă (Firebase Auth)
+- Praguri personalizate pentru senzori: temperatură, umiditate, ploaie, UV, poluare
+- Preferințe individuale de notificare
+-  Stocare în Firebase Firestore
+-  Notificări push automate (Firebase Cloud Messaging)
+-  Backend Node.js care monitorizează senzorii și trimite alerte în timp real
 
-### 📁 Structura proiectului
+### 📁 Structura proiectului - arborele fișierelor
 
 ```
 app/
