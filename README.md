@@ -1,7 +1,7 @@
 # 🌤️ MeteoApp
 > Aplicație pentru monitorizarea condițiilor meteo, cu Firebase și notificări în timp real
 
-MeteoApp este o aplicație mobilă Android care permite utilizatorilor să primească alerte meteo inteligente pe baza pragurilor personalizate. Sistemul este complet integrat cu Firebase (Auth, Firestore, Realtime Database, FCM) pentru procesarea automată a datelor primite de la senzorii unui modul autonom de transmitere, cu posibilitate de încărcare.
+MeteoApp este o aplicație mobilă Android care permite utilizatorilor să primească alerte meteo inteligente pe baza pragurilor personalizate. Sistemul este complet integrat cu Firebase (Auth, Firestore, Realtime Database, FCM) pentru procesarea automată a datelor primite de la senzorii unui modul autonom de transmitere, cu posibilitate de încărcare cu energie regenerabilă.
 
 ---
 <br>
@@ -293,6 +293,8 @@ users/
 - Suport multi-device (cu sincronizare în cloud)
 - Widget meteo pentru homescreen
 - Control vocal pentru comenzi meteo
+- Monitorizare nivel încărcare baterie
+- Optimizare energetică
 
 ---
 @ligia1002, Timișoara, RO, 2025
