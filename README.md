@@ -6,10 +6,10 @@ MeteoApp este o aplicație mobilă Android care permite utilizatorilor să prime
 ---
 <br>
 
-## 📡 COMPONENTA HARDWARE
+##  COMPONENTA HARDWARE
 MeteoApp funcționează cu un dispozitiv fizic bazat pe **ESP32 Nano**, echipat cu o serie de senzori de mediu care colectează date în timp real și le trimit către Firebase.
 
-### 🧱 Componente folosite
+###  Componente folosite
 
 | Componentă           | Funcție                                      |
 |----------------------|----------------------------------------------|
@@ -20,11 +20,11 @@ MeteoApp funcționează cu un dispozitiv fizic bazat pe **ESP32 Nano**, echipat 
 | **Pluviometru** | Detectare precipitații      |
 | **BMP180** | Presiune atmosferică și altitudine           |
 
-### 🔄 Funcționare
+###  Funcționare
 
 1. ESP-ul colectează date de la senzori la fiecare 60 secunde
 2. Formatează datele într-un JSON:
-   ```json
+   ```
    {
      "temperature": 28.4,
      "humidity": 40,
@@ -33,10 +33,11 @@ MeteoApp funcționează cu un dispozitiv fizic bazat pe **ESP32 Nano**, echipat 
      "uvIndex": 6.2,
      "timestamp": "2025-06-22T10:03:00Z"
    }
+   ```
 3. Trimite datele către Firebase Realtime Database la nodul `/SensorData`
 4. Backend-ul Node.js preia intrările și decide dacă trebuie declanșate alerte
 
-### 🔐 Securitate
+###  Securitate
 - ESP-ul trebuie să se autentifice folosind un token Firebase (sau acces cu permisii restricționate)
 - baza de date poate fi securizată cu Firebase Rules:
 ```
@@ -48,15 +49,14 @@ MeteoApp funcționează cu un dispozitiv fizic bazat pe **ESP32 Nano**, echipat 
     }
   }
 }
-
   ```
 ---
-## 📊 Arhitectura generală a aplicației. Schema bloc
+##  Arhitectura generală a aplicației. Schema bloc
 <img src="https://github.com/user-attachments/assets/9f5e2146-2596-4768-a6bc-cb66ef42ed32" width="400"/>
 
 ---
-## 👨‍💻 COMPONENTA SOFTWARE
-### 🔧 Funcționalități
+##  COMPONENTA SOFTWARE
+### Funcționalități
 
 - Autentificare cu email și parolă (Firebase Auth)
 - Praguri personalizate pentru senzori: temperatură, umiditate, ploaie, UV, poluare
@@ -65,7 +65,7 @@ MeteoApp funcționează cu un dispozitiv fizic bazat pe **ESP32 Nano**, echipat 
 -  Notificări push automate (Firebase Cloud Messaging)
 -  Backend Node.js care monitorizează senzorii și trimite alerte în timp real
 
-### 📁 Structura proiectului - arborele fișierelor
+### Structura proiectului - arborele fișierelor
 
 ```
 app/
@@ -88,9 +88,9 @@ app/
 ├── firebase.json, .firebaserc
 ```
 
-### 🚀 Instalare și rulare
+###  Instalare și rulare
 
-#### 📱 Android App
+####  Android App
 
 1. Deschide folderul `app/` în Android Studio
 2. Asigură-te că:
@@ -99,7 +99,7 @@ app/
 3. Rulează aplicația pe emulator sau dispozitiv real
 
 
-#### 🖥️ Backend (Node.js)
+####  Backend (Node.js)
 
 1. Navighează în terminal la:
 ```
@@ -114,7 +114,7 @@ npm install
 node index.js
 ```
 ---
-### 🧠 Clase principale
+###  Clase principale
 
 #### `MainActivity.java`
 - Componenta principală a aplicației după autentificare
@@ -192,7 +192,7 @@ node index.js
 
 ---
 
-### 🔔 Notificări
+### Notificări
 
 Sistemul de notificări din MeteoApp este proiectat să alerteze utilizatorii în timp real atunci când valorile senzorilor depășesc pragurile configurate.
 
@@ -209,7 +209,7 @@ Sistemul de notificări din MeteoApp este proiectat să alerteze utilizatorii î
    - Notificările sunt etichetate cu un `tag` specific (`"temp-alert"`, `"uv-alert"`, etc.) pentru a evita suprascrierea
 
 
-#### 📤 Exemple de notificări
+####  Exemple de notificări
 
 - **Temperatură:** „Temperatura a depășit pragul! 32 °C”
 - **Ploaie:** „Senzorul a detectat precipitații.”
@@ -218,7 +218,7 @@ Sistemul de notificări din MeteoApp este proiectat să alerteze utilizatorii î
 - **UV:** „Indice UV ridicat: 7.5”
 
 
-#### 🔐 Condiții necesare pentru trimitere
+####  Condiții necesare pentru trimitere
 
 |  Condiție                              | Detalii                                                             |
 |---------------------------------------|----------------------------------------------------------------------|
@@ -229,20 +229,20 @@ Sistemul de notificări din MeteoApp este proiectat să alerteze utilizatorii î
 |  `timestamp recent`                 | Ultima măsurătoare are sub 1 minut                                     |
 
 
-#### 📱 Afișare pe Android
+####  Afișare pe Android
 
 Aplicația Android folosește `FirebaseMessagingService` pentru a prelua notificările și a le afișa local folosind `NotificationManager`.
 
 - Fiecare notificare primește un `notificationId` unic (bazat pe timestamp) pentru a evita suprascrierea.
 - Notificările se afișează simultan în zona de notificări.
 
-#### 🔒 Evitarea dublurilor / spamului
+####  Evitarea dublurilor / spamului
 
 - Notificările sunt trimise doar la tranziții (ex: `rainDetected: false → true`)
 - Backend-ul verifică dacă datele sunt proaspete înainte să trimită
 - Pragurile inactive sau cu `notifyX = false` sunt ignorate
 
-#### ✅ Exemplu de structură Firestore
+####  Exemplu de structură Firestore
 ```
 users/
   <uid>/
@@ -260,9 +260,9 @@ users/
         active: true
 ```
 ---
-### 📦 Tehnologii folosite
+###  Tehnologii folosite
 
-#### 📱 Android App
+####  Android App
 - **Java** — limbajul principal pentru activități și logică
 - **Firebase SDK** — autentificare, baze de date și push notifications
 - **Firestore** — pentru salvarea pragurilor și preferințelor utilizatorului
@@ -270,14 +270,14 @@ users/
 - **Firebase Cloud Messaging (FCM)** — trimiterea notificărilor push
 - **MPAndroidChart** — afișarea graficului UV
 
-#### ⚙️ Backend
+####  Backend
 - **Node.js** — monitorizează senzorii și trimite alerte
 - **Firebase Admin SDK** — acces complet la Firestore, RTDB și FCM
 - **Cron logic intern** — verifică datele la fiecare 60 secunde
 
 ---
 
-### 🛠️ Funcționalități suplimentare
+###  Funcționalități suplimentare
 - Suport complet pentru teme de zi/noapte/meteo
 - Fundaluri dinamice în funcție de vreme (cer senin, ploaie, noapte)
 - Personalizare notificări cu mesaj custom (`messageTemplate`)
@@ -286,7 +286,7 @@ users/
 
 ---
 
-### 🔄 Extensii posibile
+###  Extensii posibile
 
 - Adăugarea de notificări programate (alarme)
 - Istoric complet al datelor meteo pentru fiecare utilizator
