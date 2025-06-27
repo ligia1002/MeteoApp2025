@@ -303,6 +303,7 @@ users/
 ### Interfața cu utilizatorul
 <img src="https://github.com/user-attachments/assets/29ccce5e-bcef-42ee-b638-e25dd5d1667f" width="400"> 
 <img src="https://github.com/user-attachments/assets/3d0b8f24-c8e0-4f32-a2e3-4f077d5bf02b" width="400"/>
+
 Interfețele se adaptează vizual la condițiile meteo și în funcție de perioada zilei, astfel utilizatorul are o imagine panoramică a vremii de la prima privire.
 Pentru conștientizarea pericolelor, aplicația pune la dispoziție grafice ale radiației UV și sugestii de protecție. De asemenea, aplicația își propune să aducă o stare de bine, de aceea oferă șansa utilizatoilor de a-și personaliza profilul.
 
