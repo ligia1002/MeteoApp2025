@@ -310,4 +310,18 @@ Pentru conștientizarea pericolelor, aplicația pune la dispoziție grafice ale 
 
 ---
 
+### Sistemul de achiziție a datelor
+<img src="https://github.com/user-attachments/assets/0d0b3444-5d00-4d7b-8bc9-954c26c4c909" width="400"> 
+
+Imaginile ilustrează ansamblul sistemului de achiziție a datelor, alcătuit dintr-o placă de dezvoltare (ESP32), senzori, un modul de alimentare cu baterie Li-Ion, precum și un panou solar pentru încărcare, toate integrate într-o structură de protecție. Se observă o organizare modulară a componentelor, ceea ce permite testarea și monitorizarea eficientă a consumului și generării de energie în diverse condiții. Prin conectarea directă la panoul solar și utilizarea unei baterii, sistemul este proiectat pentru autonomie energetică, iar în combinație cu optimizările prezentate anterior, devine un prototip funcțional pentru aplicații IoT sustenabile.
+
+---
+### Optimizări energetice
+<img src="https://github.com/user-attachments/assets/9e06f7af-abcb-4360-adb2-5eccb1f20751" width="400">
+<img src="https://github.com/user-attachments/assets/a12ae31e-9fcb-4d6b-b2e7-75886f1f675c" width="400"/>
+
+În sistemul analizat, consumul de energie este generat de microcontrolerul ESP32, senzorii și în special de motorul servo, care are un consum ridicat (1A), depășind frecvent curentul produs de panoul solar (care are capacitate maximă de aproximativ 1A în condiții ideale). Din acest motiv, în configurația actuală, consumul total este mai mare decât energia generată, ceea ce duce la descărcarea bateriei în timpul funcționării. Ca soluție temporară, s-a optat pentru alimentarea motorului servo dintr-o sursă externă (baterie), pentru a reduce sarcina pe sistemul fotovoltaic și a permite încărcarea acestuia. Totuși, soluția ideală pe termen lung este înlocuirea panoului actual cu unul de putere mai mare, care să poată furniza suficient curent pentru toate componentele în mod simultan și să asigure și încărcarea bateriei, oferind astfel o autonomie energetică reală și o funcționare stabilă fără intervenții externe.
+
+---
+
 @ligia1002, Timișoara, RO, 2025
