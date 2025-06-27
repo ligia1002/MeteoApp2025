@@ -297,4 +297,9 @@ users/
 - Optimizare energetică
 
 ---
+
+### Interfața cu utilizatorul
+
+---
+
 @ligia1002, Timișoara, RO, 2025
