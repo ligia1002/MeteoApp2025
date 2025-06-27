@@ -174,7 +174,7 @@ node index.js
 - Monitorizează datele din Realtime Database (`/SensorData`)
 - Compară valorile curente cu cele anterioare și cu pragurile definite
 - Dacă un prag este depășit și notificarea este activă:
-  - Trimite notificare FCM folosind tokenul din `users/<uid>/fcmToken`
+- Trimite notificare FCM folosind tokenul din `users/<uid>/fcmToken`
 - Rulează în loop la fiecare 60 de secunde
 
 
@@ -275,6 +275,8 @@ users/
 - **Firebase Admin SDK** — acces complet la Firestore, RTDB și FCM
 - **Cron logic intern** — verifică datele la fiecare 60 secunde
 
+<img src="https://github.com/user-attachments/assets/5c9b47b7-ef89-413b-9e07-463189177633" width="400"> 
+
 ---
 
 ###  Funcționalități suplimentare
@@ -299,7 +301,11 @@ users/
 ---
 
 ### Interfața cu utilizatorul
-<img src="" width="400"/>
+<img src="https://github.com/user-attachments/assets/29ccce5e-bcef-42ee-b638-e25dd5d1667f" width="400"> 
+<img src="https://github.com/user-attachments/assets/3d0b8f24-c8e0-4f32-a2e3-4f077d5bf02b" width="400"/>
+Interfețele se adaptează vizual la condițiile meteo și în funcție de perioada zilei, astfel utilizatorul are o imagine panoramică a vremii de la prima privire.
+Pentru conștientizarea pericolelor, aplicația pune la dispoziție grafice ale radiației UV și sugestii de protecție. De asemenea, aplicația își propune să aducă o stare de bine, de aceea oferă șansa utilizatoilor de a-și personaliza profilul.
+
 
 ---
 
