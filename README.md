@@ -299,6 +299,7 @@ users/
 ---
 
 ### Interfața cu utilizatorul
+<img src="" width="400"/>
 
 ---
 
