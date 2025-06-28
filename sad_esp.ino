@@ -17,8 +17,8 @@ DHT dht(DHTPIN, DHTTYPE);
 #define RAIN_DIGITAL D4
 #define MQ4_PIN      A2
 
-const char* ssid     = "bt@gov.ia";
-const char* password = "23112012";
+const char* ssid     = "";
+const char* password = "";
 
 const char* firebaseHost = "https://meteo-app-2025-default-rtdb.europe-west1.firebasedatabase.app/SensorData.json";
 
