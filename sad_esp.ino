@@ -35,7 +35,7 @@ void setup() {
   dht.begin();
 
   if (!bmp.begin()) {
-    Serial.println("❌ BMP180 read failure – presiune indisponibilă");
+    Serial.println(" BMP180 read failure – presiune indisponibilă");
   }
 
   pinMode(UV_SENSOR,    INPUT);
@@ -48,7 +48,7 @@ void setup() {
   while (WiFi.status() != WL_CONNECTED) {
     delay(500); Serial.print(".");
   }
-  Serial.println("\n✅ Wi-Fi connected!");
+  Serial.println("\n Wi-Fi connected!");
 
   timeClient.begin();
   configTime(10800, 0, "pool.ntp.org");  // Fus orar UTC+1, fără DST
@@ -74,7 +74,7 @@ void loop() {
   }
 
   if (isnan(temp) || isnan(hum)) {
-    Serial.println("❌ DHT11 read failure – skipping this cycle");
+    Serial.println(" DHT11 read failure – skipping this cycle");
     delay(2000);
     return;
   }
@@ -83,7 +83,7 @@ void loop() {
   // Obținem data + ora din sistemul ESP32
   struct tm timeinfo;
   if (!getLocalTime(&timeinfo)) {
-    Serial.println("⚠️ Failed to get time");
+    Serial.println(" Failed to get time");
     return;
   }
 
@@ -91,7 +91,7 @@ void loop() {
   strftime(timeString, sizeof(timeString), "%b %d %Y %H:%M:%S", &timeinfo);
   String timestamp(timeString);
 
-  Serial.println("📤 Sending data to Firebase...");
+  Serial.println(" Sending data to Firebase...");
 
   if (WiFi.status() == WL_CONNECTED) {
     HTTPClient http;
