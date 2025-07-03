@@ -43,7 +43,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setAutoCancel(true);
 
-        // 🔥 ID unic pentru fiecare notificare
+    
         int notificationId = (int) System.currentTimeMillis();
         notificationManager.notify(notificationId, builder.build());
     }
